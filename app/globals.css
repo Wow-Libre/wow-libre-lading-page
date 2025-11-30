@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Folkard";
+  src: url("/font/Folkard-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-folkard: "Folkard", serif;
+  --color-primary: #f97316;
+  --color-primary-hover: #ea580c;
+  --color-primary-rgb: 249, 115, 22;
+
+  /* Tailwind color utilities */
+  --color-primary-50: #fff7ed;
+  --color-primary-100: #ffedd5;
+  --color-primary-200: #fed7aa;
+  --color-primary-300: #fdba74;
+  --color-primary-400: #fb923c;
+  --color-primary-500: #f97316;
+  --color-primary-600: #ea580c;
+  --color-primary-700: #c2410c;
+  --color-primary-800: #9a3412;
+  --color-primary-900: #7c2d12;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar styling - necesario ya que Tailwind no soporta pseudo-elementos de scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 6px;
+  border: 2px solid #000000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-hover);
+}
+
+/* Selection styling - necesario ya que Tailwind no soporta ::selection */
+::selection {
+  background: rgba(var(--color-primary-rgb), 0.4);
+  color: #ffffff;
+}
+
+/* Fade in animation */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out;
+}
+
+.font-folkard {
+  font-family: "Folkard", serif;
+}

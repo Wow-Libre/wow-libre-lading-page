@@ -1,0 +1,517 @@
+{
+    "nav": {
+        "features": "Características",
+        "tech": "Tecnología",
+        "pricing": "Precios",
+        "contact": "Contacto",
+        "start": "Empezar"
+    },
+    "hero": {
+        "badge": "🔥 Oferta Especial: Comienza Hoy y Ahorra 30%",
+        "title": "Skoll Forge",
+        "subtitle": "CMS",
+        "description": "Sistema de Gestión Profesional",
+        "text": "La solución más avanzada para administrar tu servidor de {game} privado. Desarrollado con las últimas tecnologías y arquitectura moderna de {framework}.",
+        "game": "World of Warcraft",
+        "framework": "Spring Boot",
+        "cta": {
+            "demo": "Ver Precios",
+            "docs": "Ver Documentación"
+        }
+    },
+    "monitoring": {
+        "title": "Monitoreo y Observabilidad",
+        "subtitle": "Integraciones Profesionales de Clase Enterprise",
+        "description": "Monitoreo en tiempo real, métricas avanzadas y observabilidad completa para garantizar el máximo rendimiento de tu servidor",
+        "datadog": {
+            "title": "Datadog",
+            "description": "Monitoreo completo de infraestructura, aplicaciones y logs. Dashboards personalizados, alertas inteligentes y análisis de rendimiento en tiempo real."
+        },
+        "newrelic": {
+            "title": "New Relic",
+            "description": "APM (Application Performance Monitoring) avanzado con trazabilidad distribuida, métricas de negocio y análisis profundo de rendimiento de aplicaciones."
+        },
+        "features": {
+            "metrics": "Métricas en Tiempo Real",
+            "alerts": "Alertas Inteligentes",
+            "tracing": "Trazabilidad Completa",
+            "dashboards": "Dashboards Personalizados"
+        }
+    },
+    "features": {
+        "badge": "CARACTERÍSTICAS",
+        "title": "Potencia tu Servidor",
+        "subtitle": "Todo lo que necesitas para gestionar tu servidor de forma profesional y eficiente",
+        "items": {
+            "performance": {
+                "title": "Rendimiento Óptimo",
+                "description": "Arquitectura optimizada para manejar miles de usuarios simultáneos sin problemas de rendimiento. Caché inteligente y consultas optimizadas."
+            },
+            "security": {
+                "title": "Seguridad Avanzada",
+                "description": "Sistema de autenticación robusto con JWT, encriptación de datos y protección contra ataques. Cumplimiento con estándares de seguridad."
+            },
+            "dashboard": {
+                "title": "Dashboard Intuitivo",
+                "description": "Panel de control moderno y fácil de usar para gestionar todos los aspectos de tu servidor. Métricas en tiempo real y visualizaciones interactivas."
+            },
+            "integration": {
+                "title": "Integración Completa",
+                "description": "Conecta perfectamente con TrinityCore y otros sistemas de servidor WoW. API RESTful para integraciones personalizadas."
+            },
+            "api": {
+                "title": "API RESTful",
+                "description": "API completa y documentada para integraciones personalizadas y automatizaciones. Webhooks y eventos en tiempo real."
+            },
+            "database": {
+                "title": "Base de Datos Optimizada",
+                "description": "Gestión eficiente de datos con soporte para MySQL/MariaDB. Consultas optimizadas, índices inteligentes y respaldos automáticos."
+            }
+        }
+    },
+    "tech": {
+        "badge": "TECNOLOGÍA",
+        "title": "Stack Tecnológico",
+        "subtitle": "Construido con las mejores herramientas y frameworks del mercado",
+        "technologies": [
+            {
+                "name": "Spring Boot",
+                "version": "3.x"
+            },
+            {
+                "name": "Java",
+                "version": "21 LTS"
+            },
+            {
+                "name": "React",
+                "version": "19"
+            },
+            {
+                "name": "TypeScript",
+                "version": "5.x"
+            },
+            {
+                "name": "MySQL",
+                "version": "8.0+"
+            },
+            {
+                "name": "Docker",
+                "version": "Latest"
+            },
+            {
+                "name": "REST API",
+                "version": "RESTful"
+            },
+            {
+                "name": "JWT",
+                "version": "Security"
+            }
+        ]
+    },
+    "pricing": {
+        "badge": "PRECIOS",
+        "title": "Planes Flexibles",
+        "subtitle": "Elige el plan que mejor se adapte a tus necesidades",
+        "plans": {
+            "starter": {
+                "name": "Starter Pack",
+                "price": "$15/mes",
+                "description": "Perfecto para empezar",
+                "features": [
+                    "Hosting web administrado 100% por nosotros",
+                    "CMS + Login System listos para producción",
+                    "Métricas centralizadas (performance, usuarios, errores)",
+                    "Backups automáticos semanales",
+                    "Soporte por ticket + Discord (48h)",
+                    "500 correos transaccionales / mes",
+                    "Monitoreo básico + alertas",
+                    "Protección DDOS",
+                    "Pasarela de pago integrada (Stripe & PayU)",
+                    "Acompañamiento personalizado"
+                ]
+            },
+            "professional": {
+                "name": "Profesional",
+                "price": "$29/mes",
+                "description": "Para comunidades medianas / grandes",
+                "features": [
+                    "Hosting web administrado 100% por nosotros",
+                    "CMS + Login System listos para producción",
+                    "Métricas centralizadas (performance, usuarios, errores)",
+                    "Backups automáticos semanales",
+                    "Soporte por ticket + Discord (48h)",
+                    "3,000 correos transaccionales / mes",
+                    "Monitoreo avanzado + alertas",
+                    "DDOS Protection + Firewall",
+                    "Pasarela de pago integrada (Stripe & PayU)",
+                    "Acompañamiento personalizado",
+                    "App móvil del CMS (iOS & Android)"
+                ]
+            },
+            "enterprise": {
+                "name": "Enterprise",
+                "price": "Personalizado",
+                "description": "Para servidores grandes",
+                "features": [
+                    "Todo del plan Profesional",
+                    "Soporte 24/7",
+                    "Personalizaciones completas",
+                    "SLA 99.99%",
+                    "Consultoría dedicada"
+                ]
+            },
+            "popular": "Más Popular",
+            "cta": "Comenzar Ahora"
+        }
+    },
+    "cta": {
+        "title": "¿Listo para Transformar tu Servidor?",
+        "subtitle": "Únete a la comunidad de servidores que ya están usando SkollForge CMS",
+        "primary": "Comenzar Ahora",
+        "secondary": "Ver Precios"
+    },
+    "footer": {
+        "description": "Sistema de gestión profesional para servidores World of Warcraft privados.",
+        "product": {
+            "title": "Producto",
+            "features": "Características",
+            "pricing": "Precios",
+            "docs": "Documentación",
+            "changelog": "Changelog"
+        },
+        "resources": {
+            "title": "Recursos",
+            "portal": "Portal de Clientes",
+            "forum": "Foro",
+            "blog": "Blog",
+            "tutorials": "Tutoriales"
+        },
+        "contact": {
+            "title": "Contacto",
+            "support": "Soporte",
+            "email": "Email",
+            "discord": "Discord",
+            "twitter": "Twitter"
+        },
+        "legal": {
+            "copyright": "© 2024 SkollForge CMS. Todos los derechos reservados.",
+            "terms": "Términos",
+            "privacy": "Privacidad",
+            "cookies": "Cookies"
+        }
+    },
+    "docs": {
+        "title": "Documentación",
+        "subtitle": "Guía completa para usar SkollForge CMS",
+        "sections": {
+            "introduction": {
+                "title": "Introducción",
+                "content": "SkollForge CMS es un sistema de gestión completo para proyectos relacionados con World of Warcraft y otros MMORPG. Proporciona todas las herramientas necesarias para administrar tu proyecto de manera eficiente y profesional."
+            },
+            "gettingStarted": {
+                "title": "Primeros Pasos",
+                "content": "Una vez que te suscribes a uno de nuestros planes, recibirás acceso completo al CMS. El sistema incluye hosting administrado y un dominio, por lo que no necesitas configurar nada por tu cuenta.",
+                "steps": [
+                    "Accede al Portal de Clientes con tus credenciales",
+                    "Recibirás un dominio incluido con tu plan",
+                    "Personaliza la apariencia de tu sitio web",
+                    "Configura los sistemas de pago y donaciones",
+                    "Comienza a gestionar tu comunidad"
+                ]
+            },
+            "features": {
+                "title": "Características Principales",
+                "content": "El CMS incluye múltiples módulos y características diseñadas para ofrecerte una experiencia completa y profesional:",
+                "items": [
+                    "Sistema de autenticación y gestión de usuarios: Control completo sobre el acceso y permisos de tus usuarios con seguridad avanzada",
+                    "Panel de administración completo: Interfaz intuitiva y poderosa para gestionar todos los aspectos de tu proyecto desde un solo lugar",
+                    "Integración con pasarelas de pago (Stripe y PayU): Procesa pagos y donaciones de forma segura y automática con las principales plataformas de pago",
+                    "Sistema de correos transaccionales: Sistema de seguridad que envía correos de validación para garantizar que solo usuarios reales puedan registrarse. Filtro avanzado que previene bots y protege contra registros fraudulentos mediante verificación por correo electrónico",
+                    "Monitoreo y alertas avanzadas: Nuestro equipo está constantemente monitoreando tu sistema, detectando errores y solucionándolos proactivamente para garantizar el máximo rendimiento",
+                    "Sistema VIP: Sistema de membresías VIP que permite a tu proyecto ser autosustentable. Los usuarios pueden adquirir beneficios exclusivos mientras generas ingresos recurrentes para mantener y mejorar tu servidor",
+                    "Protección DDOS y firewall: Seguridad de nivel empresarial para proteger tu proyecto contra amenazas y ataques"
+                ],
+                "cta": {
+                    "title": "¿Quieres conocer más funcionalidades?",
+                    "button": "Ver Todas las Características"
+                }
+            },
+            "api": {
+                "title": "API REST",
+                "content": "SkollForge CMS incluye una API REST completa que te permite integrar el sistema con aplicaciones externas, bots de Discord, o cualquier otra herramienta que necesites."
+            },
+            "support": {
+                "title": "Soporte",
+                "content": "Ofrecemos soporte por ticket y Discord. El tiempo de respuesta depende de tu plan:",
+                "plans": {
+                    "starter": "Starter Pack: Respuesta en 48 horas",
+                    "professional": "Profesional: Respuesta en 48 horas",
+                    "enterprise": "Enterprise: Soporte 24/7 con respuesta inmediata"
+                }
+            },
+            "contact": {
+                "title": "¿Necesitas Ayuda?",
+                "content": "Si tienes preguntas o necesitas asistencia, puedes contactarnos a través de nuestro sistema de soporte o Discord. Estamos aquí para ayudarte a sacar el máximo provecho de SkollForge CMS."
+            }
+        }
+    },
+    "legal": {
+        "terms": {
+            "title": "Términos y Condiciones",
+            "lastUpdated": "Última actualización",
+            "sections": {
+                "acceptance": {
+                    "title": "1. Aceptación de los Términos",
+                    "content": "Al acceder y utilizar SkollForge CMS, usted acepta cumplir con estos términos y condiciones. Si no está de acuerdo con alguna parte de estos términos, no debe utilizar nuestro servicio."
+                },
+                "description": {
+                    "title": "2. Descripción del Servicio",
+                    "content": "SkollForge CMS es un sistema de gestión de contenido desarrollado con Spring Boot para proyectos relacionados con World of Warcraft y otros MMORPGs. Proporcionamos hosting administrado, herramientas de gestión, monitoreo y soporte técnico."
+                },
+                "usage": {
+                    "title": "3. Uso del Servicio",
+                    "intro": "Usted se compromete a:",
+                    "items": [
+                        "Utilizar el servicio únicamente para fines legales",
+                        "No realizar actividades que puedan dañar o interferir con el servicio",
+                        "Mantener la confidencialidad de sus credenciales de acceso",
+                        "No compartir su cuenta con terceros sin autorización",
+                        "Cumplir con todas las leyes y regulaciones aplicables"
+                    ]
+                },
+                "payments": {
+                    "title": "4. Pagos y Facturación",
+                    "content": "Los pagos se realizan de forma mensual según el plan seleccionado. Todos los precios están expresados en dólares estadounidenses (USD) y pueden estar sujetos a cambios con previo aviso. El pago se procesa automáticamente cada mes hasta que cancele su suscripción."
+                },
+                "cancellation": {
+                    "title": "5. Cancelación y Reembolsos",
+                    "content": "Puede cancelar su suscripción en cualquier momento. No se realizan reembolsos por períodos ya facturados. Al cancelar, su servicio permanecerá activo hasta el final del período de facturación actual."
+                },
+                "liability": {
+                    "title": "6. Limitación de Responsabilidad",
+                    "content": "SkollForge CMS se proporciona &quot;tal cual&quot; sin garantías de ningún tipo. No seremos responsables por daños indirectos, incidentales o consecuentes derivados del uso o la imposibilidad de usar nuestro servicio."
+                },
+                "intellectual": {
+                    "title": "7. Propiedad Intelectual",
+                    "content": "Todo el contenido, código y materiales de SkollForge CMS son propiedad de sus respectivos propietarios y están protegidos por leyes de propiedad intelectual. No se permite la copia, modificación o distribución sin autorización previa."
+                },
+                "modifications": {
+                    "title": "8. Modificaciones de los Términos",
+                    "content": "Nos reservamos el derecho de modificar estos términos en cualquier momento. Los cambios entrarán en vigor inmediatamente después de su publicación. El uso continuado del servicio después de los cambios constituye su aceptación de los nuevos términos."
+                },
+                "contact": {
+                    "title": "9. Contacto",
+                    "content": "Si tiene preguntas sobre estos términos y condiciones, puede contactarnos a través de nuestro sistema de soporte o Discord."
+                }
+            }
+        },
+        "privacy": {
+            "title": "Política de Privacidad",
+            "lastUpdated": "Última actualización",
+            "sections": {
+                "information": {
+                    "title": "1. Información que Recopilamos",
+                    "intro": "Recopilamos los siguientes tipos de información:",
+                    "items": [
+                        "Información de cuenta: Nombre, dirección de correo electrónico, información de facturación",
+                        "Información de uso: Datos sobre cómo utiliza nuestro servicio, logs de acceso, métricas de rendimiento",
+                        "Información técnica: Dirección IP, tipo de navegador, sistema operativo, información del dispositivo",
+                        "Datos de pago: Información procesada por nuestros proveedores de pago (Stripe, PayU, Bold)"
+                    ]
+                },
+                "usage": {
+                    "title": "2. Cómo Utilizamos su Información",
+                    "intro": "Utilizamos su información para:",
+                    "items": [
+                        "Proporcionar y mantener nuestro servicio",
+                        "Procesar pagos y gestionar suscripciones",
+                        "Enviar notificaciones importantes sobre el servicio",
+                        "Mejorar y optimizar nuestro servicio",
+                        "Detectar y prevenir fraudes o abusos",
+                        "Cumplir con obligaciones legales"
+                    ]
+                },
+                "sharing": {
+                    "title": "3. Compartir Información",
+                    "intro": "No vendemos su información personal. Podemos compartir información con terceros en las siguientes situaciones:",
+                    "items": [
+                        "Proveedores de servicios: Servicios de hosting, procesamiento de pagos, análisis y monitoreo (Datadog, New Relic)",
+                        "Requisitos legales: Cuando sea requerido por ley o para proteger nuestros derechos",
+                        "Con su consentimiento: En cualquier otra situación con su autorización explícita"
+                    ]
+                },
+                "security": {
+                    "title": "4. Seguridad de los Datos",
+                    "content": "Implementamos medidas de seguridad técnicas y organizativas para proteger su información personal. Sin embargo, ningún método de transmisión por Internet o almacenamiento electrónico es 100% seguro. No podemos garantizar la seguridad absoluta de sus datos."
+                },
+                "retention": {
+                    "title": "5. Retención de Datos",
+                    "content": "Conservamos su información personal durante el tiempo necesario para cumplir con los propósitos descritos en esta política, a menos que la ley requiera o permita un período de retención más largo."
+                },
+                "rights": {
+                    "title": "6. Sus Derechos",
+                    "intro": "Usted tiene derecho a:",
+                    "items": [
+                        "Acceder a su información personal",
+                        "Corregir información inexacta",
+                        "Solicitar la eliminación de sus datos",
+                        "Oponerse al procesamiento de sus datos",
+                        "Solicitar la portabilidad de sus datos",
+                        "Retirar su consentimiento en cualquier momento"
+                    ]
+                },
+                "cookies": {
+                    "title": "7. Cookies y Tecnologías Similares",
+                    "content": "Utilizamos cookies y tecnologías similares para mejorar su experiencia. Para más información, consulte nuestra Política de Cookies.",
+                    "link": "Política de Cookies"
+                },
+                "changes": {
+                    "title": "8. Cambios a esta Política",
+                    "content": "Podemos actualizar esta política de privacidad ocasionalmente. Le notificaremos sobre cambios significativos publicando la nueva política en esta página y actualizando la fecha de &quot;última actualización&quot;."
+                },
+                "contact": {
+                    "title": "9. Contacto",
+                    "content": "Si tiene preguntas sobre esta política de privacidad o desea ejercer sus derechos, puede contactarnos a través de nuestro sistema de soporte o Discord."
+                }
+            }
+        },
+        "cookies": {
+            "title": "Política de Cookies",
+            "lastUpdated": "Última actualización",
+            "sections": {
+                "what": {
+                    "title": "1. ¿Qué son las Cookies?",
+                    "content": "Las cookies son pequeños archivos de texto que se almacenan en su dispositivo cuando visita nuestro sitio web. Nos ayudan a proporcionar, proteger y mejorar nuestros servicios, personalizar contenido y ofrecer una mejor experiencia de usuario."
+                },
+                "types": {
+                    "title": "2. Tipos de Cookies que Utilizamos",
+                    "essential": {
+                        "title": "Cookies Esenciales",
+                        "content": "Estas cookies son necesarias para el funcionamiento básico del sitio web. Incluyen cookies de sesión, autenticación y seguridad. No se pueden desactivar en nuestros sistemas."
+                    },
+                    "performance": {
+                        "title": "Cookies de Rendimiento",
+                        "content": "Estas cookies nos ayudan a entender cómo los visitantes interactúan con nuestro sitio web recopilando información de forma anónima. Utilizamos servicios como Datadog y New Relic para monitorear el rendimiento."
+                    },
+                    "functionality": {
+                        "title": "Cookies de Funcionalidad",
+                        "content": "Estas cookies permiten que el sitio web recuerde las elecciones que hace (como su idioma preferido) y proporcionan características mejoradas y más personales."
+                    },
+                    "analytics": {
+                        "title": "Cookies de Análisis",
+                        "content": "Utilizamos cookies de análisis para entender cómo los usuarios utilizan nuestro sitio web. Esta información nos ayuda a mejorar continuamente nuestro servicio."
+                    }
+                },
+                "thirdParty": {
+                    "title": "3. Cookies de Terceros",
+                    "intro": "Algunos servicios de terceros que utilizamos pueden establecer sus propias cookies:",
+                    "items": [
+                        "Proveedores de pago: Stripe, PayU, Bold Checkout pueden usar cookies para procesar pagos",
+                        "Servicios de monitoreo: Datadog y New Relic utilizan cookies para análisis de rendimiento",
+                        "Servicios de hosting: Nuestros proveedores de hosting pueden usar cookies técnicas"
+                    ]
+                },
+                "management": {
+                    "title": "4. Gestión de Cookies",
+                    "content": "Puede controlar y/o eliminar las cookies como desee. Puede eliminar todas las cookies que ya están en su dispositivo y puede configurar la mayoría de los navegadores para prevenir que se coloquen. Sin embargo, si hace esto, es posible que tenga que ajustar manualmente algunas preferencias cada vez que visite un sitio y algunos servicios y funcionalidades pueden no funcionar.",
+                    "moreInfo": "Para obtener más información sobre cómo gestionar las cookies en diferentes navegadores, consulte la documentación de su navegador:",
+                    "browsers": {
+                        "chrome": "Google Chrome",
+                        "firefox": "Mozilla Firefox",
+                        "safari": "Safari",
+                        "edge": "Microsoft Edge"
+                    }
+                },
+                "table": {
+                    "title": "5. Cookies que Utilizamos",
+                    "headers": {
+                        "name": "Nombre",
+                        "purpose": "Propósito",
+                        "duration": "Duración"
+                    },
+                    "rows": {
+                        "locale": {
+                            "name": "locale",
+                            "purpose": "Almacena el idioma preferido del usuario",
+                            "duration": "Persistente"
+                        },
+                        "session": {
+                            "name": "session_id",
+                            "purpose": "Mantiene la sesión del usuario autenticado",
+                            "duration": "Sesión"
+                        }
+                    }
+                },
+                "changes": {
+                    "title": "6. Cambios a esta Política",
+                    "content": "Podemos actualizar esta política de cookies ocasionalmente para reflejar cambios en nuestras prácticas o por otras razones operativas, legales o regulatorias. Le recomendamos revisar esta página periódicamente."
+                },
+                "contact": {
+                    "title": "7. Contacto",
+                    "content": "Si tiene preguntas sobre nuestra política de cookies, puede contactarnos a través de nuestro sistema de soporte o Discord."
+                }
+            }
+        }
+    },
+    "featuresPage": {
+        "title": "Funcionalidades",
+        "subtitle": "Descubre todo lo que SkollForge CMS puede hacer por tu proyecto",
+        "sections": {
+            "banners": {
+                "title": "Sistema de personalización de banners",
+                "description": "Personaliza tus banners con una interfaz intuitiva y potente. Añade texto, imágenes y enlaces para crear banners atractivos totalmente adaptados a tus necesidades. Desde el panel de control puedes crear hasta 10 banners diferentes.",
+                "imageAlt": "Sistema de personalización de banners"
+            },
+            "admin": {
+                "title": "Panel de Administración Completo",
+                "description": "Interfaz intuitiva y poderosa para gestionar todos los aspectos de tu proyecto desde un solo lugar. Dashboard personalizable, métricas en tiempo real y herramientas de gestión avanzadas.",
+                "imageAlt": "Panel de administración"
+            },
+            "payments": {
+                "title": "Integración con Pasarelas de Pago",
+                "description": "Procesa pagos y donaciones de forma segura y automática con Stripe y PayU. Configuración sencilla, soporte para múltiples monedas y gestión completa de transacciones.",
+                "imageAlt": "Pasarelas de pago"
+            },
+            "emails": {
+                "title": "Sistema de Correos Transaccionales",
+                "description": "Sistema de seguridad que envía correos de validación para garantizar que solo usuarios reales puedan registrarse. Filtro avanzado que previene bots y protege contra registros fraudulentos mediante verificación por correo electrónico. Plantillas personalizables y análisis de entrega.",
+                "imageAlt": "Correos transaccionales"
+            },
+            "monitoring": {
+                "title": "Monitoreo y Alertas Avanzadas",
+                "description": "Nuestro equipo está constantemente monitoreando tu sistema, detectando errores y solucionándolos proactivamente. Integración con Datadog y New Relic para observabilidad completa.",
+                "imageAlt": "Monitoreo avanzado"
+            },
+            "vip": {
+                "title": "Sistema VIP",
+                "description": "Sistema de membresías VIP que permite a tu proyecto ser autosustentable. Los usuarios pueden adquirir beneficios exclusivos, mejorando su experiencia mientras generas ingresos recurrentes para mantener y mejorar tu servidor.",
+                "imageAlt": "Sistema VIP"
+            },
+            "security": {
+                "title": "Protección DDOS y Firewall",
+                "description": "Seguridad de nivel empresarial para proteger tu proyecto contra amenazas y ataques. Protección contra DDOS, firewall configurable y detección de intrusiones.",
+                "imageAlt": "Protección de seguridad"
+            },
+            "multi-realms": {
+                "title": "Sistema Multi-Reinos",
+                "description": "Los usuarios pueden crear cuentas en los diferentes reinos disponibles desde un solo sistema. Gestiona múltiples reinos desde un panel de control centralizado, permitiendo que cada usuario tenga acceso a diferentes reinos según sus preferencias.",
+                "imageAlt": "Sistema multi-reinos"
+            },
+            "multi-languages": {
+                "title": "Sistema Multi-Idiomas",
+                "description": "Soporte completo para múltiples idiomas en tu sitio web. Los usuarios pueden cambiar el idioma según su preferencia y gestionar contenido en diferentes idiomas desde el panel de administración.",
+                "imageAlt": "Sistema multi-idiomas"
+            },
+            "store": {
+                "title": "Tienda Integrada",
+                "description": "Sistema completo de tienda para vender items, servicios y productos virtuales. Gestión de inventario, carrito de compras, historial de transacciones y más.",
+                "imageAlt": "Tienda integrada"
+            }
+        },
+        "cta": {
+            "title": "¿Listo para comenzar?",
+            "subtitle": "Elige el plan que mejor se adapte a tus necesidades",
+            "button": "Ver Planes"
+        }
+    }
+}
